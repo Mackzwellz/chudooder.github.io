@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Dota 2 Chat Wheel Scripter </title>
-  <link rel="stylesheet" type="text/css" href="css/d2style.css">
-  <meta charset="UTF-8">
+	<title> Dota 2 Chat Wheel Scripter </title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/d2style.css">
+	<!-- meta http-equiv=Content-Type content='text/html; charset=utf-8' -->
+	<meta charset="UTF-8">
 </head>
 <body>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <div id="dialog-overlay"></div>
-  <div id="title-container">
-    <h1> Dota 2 Chat Wheel Scripting </h1>
-    <p> Make your own chat wheels and bind them to different keys! </p>
-  </div>
-  <div id="wheels">
+	<!-- script src="js/jquery-2.2.0.min.js"></script -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<div id="dialog-overlay"></div>
+	<div id="title-container">
+		<h1> Dota 2 Chat Wheel Scripting </h1>
+		<p>as done by <a href="https://github.com/chudooder">chudooder</a> and expanded by <a href="https://github.com/Mackzwellz">Mackzwellz</a></p>
+		<p> Make your own chat wheels and bind them to different keys! </p>
+		
+		<div class="top_buttons">
+		<div class="moreright" >Select Chatwheel<br /> key (defalut Y):<br />
+		<input class="key 1" /></div>
+		<div class='moreright' >Select Chatwheel<br /> page change key:<br />
+		<input class="key 2" /></div>
+		<button type="button" class="btn btn-lg btn-default" id="cfg_input_wrapper_toggle">Show Config Parser</button>
+		</div>
+		
+		<div id="cfg_input_wrapper">
+		<label>Paste your previously generated config in here to modify it:</label> <br />
+		<textarea class="well" id="cfg_input_area" rows="7" cols="50"></textarea> <br />
+		<button type="button" class="btn btn-lg btn-default" id="cfg_input_area_value">Parse Config</button>
+		<button type="reset" class="btn btn-lg btn-default" id="cfg_input_area_reset">Reset Field</button>
+		</div>
+	
+	</div>
+	<div id="wheels">
 
-  </div>
+	</div>
 
-  <div id="dialog">
-    <h1> Phrases </h1>
-    <div id='dialog-scroll-list'>
-      
-    </div>
-  </div>
-  <div id="wrapper">
-    <div class="add-button">
-      <div class="add-button-text">Add Chat Wheel</div>
-    </div>
-    <div class="done-button">
-      <div class="done-button-text">Done!</div>
-    </div>
-  </div>
+	<div id="dialog">
+		<h1> Phrases </h1>
+		<div id='dialog-scroll-list'>
+			
+		</div>
+	</div>
+	<div id="bottom_buttons">
+		<button type="button" class="btn btn-lg btn-default add-button">Add Chat Wheel Page</button>
+		<button type="button" class="btn btn-lg btn-success done-button">Done!</button>
+	</div>
 
-  <div id="script-box">
-    <p> Paste this into your autoexec.cfg file: </p>
-    <hr>
-    <div id="script-text">
-      Nothing here yet!
-    </div>
-    <hr>
-    <p> Remember to unbind the original chat wheel key from inside Dota 2, or else things will mess up. </p>
-  </div>
+	<div class="" id="script-box">
+		<p> Paste this into your autoexec.cfg file: </p>
+		<hr>
+		<div id="script-text">
+			Nothing here yet!
+		</div>
+		<hr>
+		<p> Remember to unbind the original chat wheel key from inside Dota 2, or else things will mess up. </p>
+	</div>
 
 </body>
 
@@ -47,7 +64,7 @@
 <script src="js/chatwheels.js"></script>
 
 <div id="preload">
-   <img src="img/wheel.png" width="1" height="1" alt="Image 02" />
+   <img src="img/wheel.png" width="1" height="1" alt="Chatwheel Image" />
 </div>
 
 
