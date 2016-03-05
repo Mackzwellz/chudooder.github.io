@@ -1,8 +1,11 @@
+// Basic phrase function
+// Is "category" argument even used at all? Maybe will be in the future.
 function Phrase(name, gameindex, category) {
   this.name = name;
   this.gameindex = gameindex;
 }
 
+// phraseList array; phrase(name, gameindex)
 var phraseList = [
   new Phrase("Careful!",    1),
   new Phrase("Get Back!",   2),
@@ -89,14 +92,17 @@ var phraseList = [
   new Phrase("Whoops", 80)
 ];
 
+// Basic keybind function
 function Keybind(name, scriptname) {
   this.name = name;
   this.scriptname = scriptname;
 }
 
+// Array of key maps; keybind(UIName, SourceEngineName)
+// Is filled this way because all keycodes are predefined but some aren't used in our case, hence their indexes are skipped.
 var keyMap = [];
 keyMap[8] = new Keybind("Backspace", "BACKSPACE");
-keyMap[9] = new Keybind("Tab", "TAB");
+//keyMap[9] = new Keybind("Tab", "TAB");	//commented out because impossible to Tab-travel through the keybind field
 keyMap[13] = new Keybind("Enter", "ENTER");
 keyMap[16] = new Keybind("Shift", "SHIFT");
 keyMap[17] = new Keybind("Ctrl", "CTRL");
