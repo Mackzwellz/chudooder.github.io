@@ -9,10 +9,10 @@ Changes:
 +- 2-key-layout (as found somewhere on reddit, would like to give credit)
 
 Credits: 
-	Valve — DotA 2 and initial phraseList content
-	chudooder (github.com/chudooder) — inital chatwheel config builder
-	Onekone (github.com/Onekone) — initial help with understanding of the code, suggestions, guidance and motivation (no Kappa)
-	stackoverflow.com community for providing thorough answers on googled subjects
++ Valve — DotA 2 and initial phraseList content
++ chudooder (github.com/chudooder) — inital chatwheel config builder
++ Onekone (github.com/Onekone) — initial help with understanding of the code, suggestions, guidance and motivation (no Kappa)
++ stackoverflow.com community for providing thorough answers on googled subjects
 
 TODO:
 
