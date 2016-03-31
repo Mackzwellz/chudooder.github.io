@@ -1,7 +1,77 @@
+<!doctype html>
 <html>
-<body>
-<p> <u>Chudooder's website</u> </p>
-<a href="dota2chatwheel.html"> Dota 2 Chat Wheel Scripter </a>
-<a href="entanglement.html"> Entanglement </a>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Mackzwellz.GitHub.io by Mackzwellz</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Mackzwellz">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Mackzwellz.GitHub.io</h1>
+          <p>Shawn&#39;s website fork to implement the parser of existing chatwheels</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Mackzwellz">Mackzwellz</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="chudoodergithubio" class="anchor" href="#chudoodergithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>chudooder.github.io</h1>
+
+<p>Shawn's website fork to implement <strong>the parser of existing chatwheels</strong></p>
+
+<p>Proceed <a href="../chatwheel.html">here, it's the generator page</a>.</p>
+
+<p>Downsides (with the current setup):</p>
+
+<ul>
+<li>Whenever you bring the chatwheel up in-game, it brings up the one you stopped on during switching. But when you start switching, it starts from the very beginning; this can be misleading, and idk how to fix it, would like to have some input on this.</li>
+<li>Basic functionality is there, but a lot more need to be done imo.
+***</li>
+</ul>
+
+<p>Changes in this fork:</p>
+
+<ul>
+<li>commented a lot of code (most of the work went into this than into actual coding)</li>
+<li>config parser</li>
+<li>"selections" array now stores actual phrases' gameindexes</li>
+<li>proper deletion of chatwheel pages (reforms the array and reenumerates the chatwheel pages) </li>
+<li>TBF: implement 2-key-layout (as found somewhere on reddit, would like to give credit)</li>
+</ul>
+
+<p>Credits: </p>
+
+<ul>
+<li>Valve — DotA 2 and initial phraseList content</li>
+<li>chudooder (<a href="https://github.com/chudooder">github.com/chudooder</a>) — inital chatwheel config builder</li>
+<li>Onekone (<a href="https://github.com/Onekone">github.com/Onekone</a>) — initial help with understanding of the code, suggestions, guidance and motivation (no Kappa)</li>
+<li>stackoverflow.com community for providing thorough answers on googled subjects</li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
 </html>
