@@ -1,7 +1,7 @@
 # chudooder.github.io
 Shawn's website fork to implement **the parser of existing chatwheels**
 
-Proceed [here, it's the generator page](../chatwheel.html).
+Proceed [here, it's the generator page](http://mackzwellz.github.io/chatwheel.html).
 
 Downsides (with the current setup):
 + Whenever you bring the chatwheel up in-game, it brings up the one you stopped on during switching. But when you start switching, it starts from the very beginning; this can be misleading, and idk how to fix it, would like to have some input on this.
@@ -29,9 +29,13 @@ TODO:
 - [ ] also a copy button for result
 
 - [ ] Need to implement 2 global binds:
-  bind SEMICOLON +mycw //// ChatWheel Key
-  bind ' mycw_next //// NextPage Key (to browse through all chat wheel pages)
-  How to use: hold the ChatWheel Key and press the NextPage Key to "scroll" through pages
+
+>   bind SEMICOLON +mycw //// ChatWheel Key
+
+>   bind ' mycw_next //// NextPage Key (to browse through all chat wheel pages)
+
+>   How to use: hold the ChatWheel Key and press the NextPage Key to "scroll" through pages
+
 - [ ] option (tick) to reset the page to the first one everytime you close the chatwheel (commented out in code)
 
 - [ ] layout system 
