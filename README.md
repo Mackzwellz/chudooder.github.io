@@ -1,12 +1,12 @@
 # chudooder.github.io
 Shawn's website fork to implement **the parser of existing chatwheels**
 
-Proceed [here, it's the generator page](http://mackzwellz.github.io/chatwheel.html).
+Proceed [here, it's the generator page](http://mackzwellz.github.io/dota2chatwheel.html).
 
 Downsides (with the current setup):
 + Whenever you bring the chatwheel up in-game, it brings up the one you stopped on during switching. But when you start switching, it starts from the very beginning; this can be misleading, and idk how to fix it, would like to have some input on this.
 + Basic functionality is there, but a lot more need to be done imo.
-***
+
 
 Changes in this fork:
 + commented a lot of code (most of the work went into this than into actual coding)
@@ -20,7 +20,7 @@ Credits:
 + chudooder ([github.com/chudooder](https://github.com/chudooder)) — inital chatwheel config builder
 + Onekone ([github.com/Onekone](https://github.com/Onekone)) — initial help with understanding of the code, suggestions, guidance and motivation (no Kappa)
 + stackoverflow.com community for providing thorough answers on googled subjects
-***
+
 
 TODO:
 
